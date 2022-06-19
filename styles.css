@@ -1,9 +1,35 @@
 .main-theme{
     background-color: #1e1e1e;
-    
+    color: whitesmoke;
 }
 
 .header{
     text-align: center;
-    color: whitesmoke;
+    
 }
+
+.smokeline{
+    border: 1px solid rgb(206, 203, 171);
+    
+/* 
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 5px;
+    border-left: 0px;     */
+}
+
+.banner-data{
+    color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a:link, a:visited {
+    color: whitesmoke;
+    text-decoration: underline;
+    cursor: auto;
+  }
+  
+  a:link:active, a:visited:active {
+    color: lightblue;
+  }
